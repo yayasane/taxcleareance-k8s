@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-taxclearence-deployment
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Release.Name }}-taxclearence
+  template:
+    metadata:
+      labels:
+        app: {{ .Release.Name }}-taxclearence
+    spec:
+      containers:
+          - name: {{ .Release.Name }}-taxclearence-container
+            image: {{ .Values.taxclearence.image.repository }}:{{ .Values.taxclearence.image.tag }}
+            imagePullPolicy: {{ .Values.taxclearence.image.pullPolicy }}
+            ports:
+              - containerPort: 8080
+            env:
+              - name: SPRING_DATASOURCE_URL
+                value: {{ include "taxclearence.fullMySQLConnectionURL" . | quote }}
+              - name: SPRING_DATASOURCE_USERNAME
+                valueFrom:
+                  secretKeyRef:
+                    name: {{ .Release.Name }}-mysql-username
+                    key: username
+              - name: SPRING_DATASOURCE_PASSWORD
+                valueFrom:
+                  secretKeyRef:
+                    name: {{ .Release.Name }}-mysql-password
+                    key: password
