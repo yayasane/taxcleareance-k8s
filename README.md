@@ -34,44 +34,44 @@ In this project, I have demonstrated how to deploy and run Springboot applicatio
 
 ### Chart installation
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/chartinstall.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/chartinstall.png)
 
 
 ### Taxcleaerence NodePort service url
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/taxclearence-service-url.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/taxclearence-service-url.png)
 
 
 ### Taxcleaerence app exposed
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/taxclearence-app.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/taxclearence-app.png)
 
 
 ## API Documentation
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/api-doc.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/api-doc.png)
 
 ## Collection Postman
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/collection-postman.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/collection-postman.png)
 
 # Features
 
 ### Declarants management (CRUD)
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/create-declarant.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-declarants.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-declarant-declarations.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/create-declarant.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/retrieve-declarants.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/retrieve-declarant-declarations.png)
 
 ### Declarations management (CRUD)
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/create-declaration.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-declarations.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/create-declaration.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/retrieve-declarations.png)
 
 ### Declaration payments (CRUD)
 
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/create-payment.png)
-![](https://github.com/yayasane/tax-clearance-system/blob/main/screenshots/retrieve-payments.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/create-payment.png)
+![](https://github.com/yayasane/taxcleareance-k8s/blob/main/screenshots/retrieve-payments.png)
 
 ## Made By
 
